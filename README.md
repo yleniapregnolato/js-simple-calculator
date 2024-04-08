@@ -6,6 +6,15 @@
 
 ## MILESTONE 2
 - [x] richiamo i bottoni contenenti gli operatori
-- [ ] aggiungere ad ogni bottone con l'operatore eventlistener
-- [ ] salvare su una variabile il primo numero cliccato e l'operatore
-- [ ] resettare il numero nel risultato al click sull'operatore 
+- [x] aggiungere ad ogni bottone con l'operatore eventlistener
+- [x] salvare su una variabile il primo numero cliccato e l'operatore
+- [x] resettare il numero nel risultato al click sull'operatore 
+
+## MILESTONE 3
+- [x] aggiungere event listener al pulsante =
+- [x] quando si clicca su =, salvare il secondo operando
+- [x] effetuare il calcolo corretto in base all'operatore selezionato 
+- [x] visualizzare il risultato in alto
+
+## MILESTONE 4
+- [ ] resettare il calcolo con il pulsante canc
