@@ -1,0 +1,87 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* common */
+.container {
+    width: 300px;
+    background-color: rgba(209, 209, 209, 1);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+/* header */
+header {
+    text-align: center;
+}
+/* /header */
+
+/* main */
+.result {
+    background-color: black;
+    color: rgba(9, 210, 151, 1);
+    font-family: "seven segment", sans-serif;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px;
+}
+.keyboard {
+  display: flex;
+  width: 100%;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+.operation {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+.key {
+  background-color: rgba(187, 187, 187, 1);
+  border: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+.key-special {
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 159, 10, 1);
+  color: white;
+}
+.zero {
+  flex-grow: 1;
+}
+.simbol {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(119, 168, 176, 1);
+  color: white;
+  border: 0px;
+}
+.simbol-special {
+  background-color: rgba(255, 159, 10, 1);
+  color: white;
+  width: 45px;
+  height: 45px;
+  border: 0px;
+}
+button {
+  border-radius: 5px;
+  font-size: 30px;
+}
