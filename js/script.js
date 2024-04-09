@@ -11,7 +11,7 @@ console.log(bottonNumbers);
 // aggiungo event listener a tutti i bottoni dei numeri in modo che il numero cliccato venga concatenato con quello sullo schermo
 
 for (let i = 0; i < bottonNumbers.length; i++) {
-    const bottonNumber = bottonNumbers[i];
+    const bottonNumber = bottonNumbers[i]; //object (elemento HTML)
     bottonNumber.addEventListener("click", clickNumber);
 }
 
@@ -23,7 +23,7 @@ console.log(operationBottons);
 // aggiungo event listener a tutti i bottoni degli operatori
 
 for (let i = 0; i < operationBottons.length; i++) {
-    const operationBotton = operationBottons [i];
+    const operationBotton = operationBottons [i]; // object (elemento HTML)
     operationBotton.addEventListener("click", clickOperator);
 }
 
