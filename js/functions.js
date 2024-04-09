@@ -26,7 +26,6 @@ function operationResult() {
         result = parseInt(resultElemOperation) + parseInt(resultElem.innerHTML);
         resultElem.innerHTML = result;
         console.log(result);
-        
     }
 
     if (operator === "-") {
@@ -42,11 +41,12 @@ function operationResult() {
         console.log(result);
     }
 
-    if (operator === "&divide;") {
+    console.log(operator);
+    if (operator === "÷") {
         result = parseInt(resultElemOperation) / parseInt(resultElem.innerHTML);
         resultElem.innerHTML = result;
-        console.log(result);
+        console.log(result); 
     }
 
-    result.innerHTML += this.innerHTML;
+   
 }
