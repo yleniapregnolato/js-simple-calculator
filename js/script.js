@@ -3,6 +3,7 @@
 let bottonNumbers = document.querySelectorAll(".key");
 let resultElem    = document.querySelector(".result");
 let operationBottons = document.querySelectorAll(".simbol");
+
 let resultElemOperation = "";
 let operator = "";
 
@@ -32,4 +33,10 @@ for (let i = 0; i < operationBottons.length; i++) {
 const equalButton = document.querySelector(".key-special");
 
 equalButton.addEventListener("click", operationResult);
+
+// aggiungo event listener al bottone reset
+
+let resetButton = document.querySelector(".simbol-special");
+
+resetButton.addEventListener("click", reset);
 
