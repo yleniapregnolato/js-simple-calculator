@@ -24,29 +24,29 @@ function operationResult() {
     let result = 0;
     if (operator === "+") {
         result = parseInt(resultElemOperation) + parseInt(resultElem.innerHTML);
-        resultElem.innerHTML = "0";
+        resultElem.innerHTML = result;
         console.log(result);
         
     }
 
     if (operator === "-") {
         result = parseInt(resultElemOperation) - parseInt(resultElem.innerHTML);
-        resultElem.innerHTML = "0";
+        resultElem.innerHTML = result;
         console.log(result);
     }
 
      
     if (operator === "x") {
         result = parseInt(resultElemOperation) * parseInt(resultElem.innerHTML);
-        resultElem.innerHTML = "0";
+        resultElem.innerHTML = result;
         console.log(result);
     }
 
-    if (operator === "&divide") {
+    if (operator === "&divide;") {
         result = parseInt(resultElemOperation) / parseInt(resultElem.innerHTML);
-        resultElem.innerHTML = "0";
+        resultElem.innerHTML = result;
         console.log(result);
     }
 
-    result.innerHTML = this.innerHTML;
+    result.innerHTML += this.innerHTML;
 }
