@@ -26,8 +26,9 @@ function operationResult() {
         result = parseInt(resultElemOperation) + parseInt(resultElem.innerHTML);
         resultElem.innerHTML = "0";
         console.log(result);
+        
     }
-    
+
     if (operator === "-") {
         result = parseInt(resultElemOperation) - parseInt(resultElem.innerHTML);
         resultElem.innerHTML = "0";
@@ -35,7 +36,7 @@ function operationResult() {
     }
 
      
-    if (operator === "*") {
+    if (operator === "x") {
         result = parseInt(resultElemOperation) * parseInt(resultElem.innerHTML);
         resultElem.innerHTML = "0";
         console.log(result);
