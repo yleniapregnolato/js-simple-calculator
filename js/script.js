@@ -4,8 +4,10 @@ let bottonNumbers = document.querySelectorAll(".key");
 let resultElem    = document.querySelector(".result");
 let operationBottons = document.querySelectorAll(".simbol");
 
+// variabile per salvare il primo numero digitato
 let resultElemOperation = "";
 let operator = "";
+let result = 0;
 
 console.log(bottonNumbers);
 

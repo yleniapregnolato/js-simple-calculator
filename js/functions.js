@@ -21,7 +21,7 @@ function clickOperator() {
 // definisco una funzione per impostare gli operatori con l'operazione alla quale si riferiscono
 
 function operationResult() {
-    let result = 0;
+    
     if (operator === "+") {
         result = parseInt(resultElemOperation) + parseInt(resultElem.innerHTML);
         resultElem.innerHTML = result;
@@ -51,3 +51,9 @@ function operationResult() {
    
 }
 
+// definisco una funzione per resettare la calcolatrice quando si preme il tasto reset
+
+function reset () {
+    result = "";
+    clickOperator ();
+}
