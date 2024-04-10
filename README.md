@@ -17,4 +17,4 @@
 - [x] visualizzare il risultato in alto
 
 ## MILESTONE 4
-- [ ] resettare il calcolo con il pulsante canc
+- [x] resettare il calcolo con il pulsante canc
